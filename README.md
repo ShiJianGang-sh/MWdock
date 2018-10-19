@@ -4,3 +4,6 @@ This program is a test on learning pyqt5, is the basic function of the previous 
 I've planed to creat a omnipotent widget which can be called by a simple word, this have been introduced and put into practice by "Mindway" project which can easily call and run a dialogue  by the form with "@", then a assembled dialogue of lineedit, listview will get the input for the running of program like form, although there are no machine language except digital paragraph .
 "MWdock"　project is a addition, which give the interface outline, although  is still much big than object for understanding the purpose.
 The function of search and other "Mindway" function can be enhanced if you join and learn.
+You can see some introduce vedios,to make the deb package see
+http://www.tudou.com/programs/view/kA-v14L4yEI/
+

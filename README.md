@@ -6,4 +6,6 @@ I've planed to creat a omnipotent widget which can be called by a simple word, t
 The function of search and other "Mindway" function can be enhanced if you join and learn.
 You can see some introduce vedios,to make the deb package see
 http://www.tudou.com/programs/view/kA-v14L4yEI/
+The following exe file is created on windows7 platform by pyinstaller program, the windows friends cand download and have a try. 
+https://pan.baidu.com/s/1XwmV50NBIa0I1vnaQ2IjCg
 

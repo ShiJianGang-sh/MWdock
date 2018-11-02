@@ -9,3 +9,8 @@ http://www.tudou.com/programs/view/kA-v14L4yEI/
 The following exe file is created on windows7 platform by pyinstaller program, the windows friends cand download and have a try. 
 https://pan.baidu.com/s/1XwmV50NBIa0I1vnaQ2IjCg
 
+The Linux platform execuable package mwdock-v0.48 link is as following:
+https://pan.baidu.com/s/1n16Xonc1_g0LzggVgjK6qQ
+
+
+

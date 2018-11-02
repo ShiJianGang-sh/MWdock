@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>672</width>
-    <height>697</height>
+    <width>820</width>
+    <height>563</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>所以然v0.48</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="layoutWidget">
@@ -19,13 +19,16 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>661</width>
-      <height>341</height>
+      <width>781</width>
+      <height>461</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <property name="spacing">
-      <number>17</number>
+      <number>2</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
      </property>
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -33,7 +36,7 @@
         <number>1</number>
        </property>
        <property name="sizeConstraint">
-        <enum>QLayout::SetMinimumSize</enum>
+        <enum>QLayout::SetFixedSize</enum>
        </property>
        <property name="leftMargin">
         <number>20</number>
@@ -75,7 +78,7 @@
           <enum>Qt::LeftToRight</enum>
          </property>
          <property name="text">
-          <string>文件</string>
+          <string>文库</string>
          </property>
          <property name="toolButtonStyle">
           <enum>Qt::ToolButtonTextOnly</enum>
@@ -143,6 +146,15 @@
      </item>
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetMaximumSize</enum>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
        <item alignment="Qt::AlignRight">
         <widget class="QToolButton" name="toolButton_7">
          <property name="cursor">
@@ -167,17 +179,77 @@
        </item>
        <item>
         <widget class="QListView" name="listView">
-         <property name="dragDropOverwriteMode">
+         <property name="frameShape">
+          <enum>QFrame::WinPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="autoScroll">
           <bool>true</bool>
+         </property>
+         <property name="autoScrollMargin">
+          <number>1</number>
+         </property>
+         <property name="showDropIndicator" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="dragEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="dragDropOverwriteMode">
+          <bool>false</bool>
          </property>
          <property name="dragDropMode">
           <enum>QAbstractItemView::DragDrop</enum>
          </property>
+         <property name="defaultDropAction">
+          <enum>Qt::MoveAction</enum>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SingleSelection</enum>
+         </property>
+         <property name="textElideMode">
+          <enum>Qt::ElideNone</enum>
+         </property>
+         <property name="horizontalScrollMode">
+          <enum>QAbstractItemView::ScrollPerPixel</enum>
+         </property>
+         <property name="isWrapping" stdset="0">
+          <bool>false</bool>
+         </property>
          <property name="resizeMode">
           <enum>QListView::Adjust</enum>
          </property>
+         <property name="layoutMode">
+          <enum>QListView::Batched</enum>
+         </property>
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <property name="modelColumn">
+          <number>0</number>
+         </property>
          <property name="batchSize">
           <number>100</number>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+         <property name="selectionRectVisible">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -210,8 +282,14 @@
        <property name="spacing">
         <number>1</number>
        </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
        <property name="leftMargin">
         <number>8</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
        </property>
        <item>
         <widget class="QToolButton" name="toolButton_6">
@@ -297,66 +375,89 @@
      </item>
     </layout>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>672</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
-  <widget class="QDockWidget" name="dockWidget_2">
-   <property name="focusPolicy">
-    <enum>Qt::WheelFocus</enum>
-   </property>
-   <property name="acceptDrops">
-    <bool>true</bool>
-   </property>
-   <property name="toolTip">
-    <string extracomment="摘录内容"/>
-   </property>
-   <property name="layoutDirection">
-    <enum>Qt::LeftToRight</enum>
-   </property>
-   <property name="autoFillBackground">
-    <bool>true</bool>
-   </property>
-   <property name="floating">
-    <bool>false</bool>
-   </property>
-   <attribute name="dockWidgetArea">
-    <number>8</number>
-   </attribute>
-   <widget class="QWidget" name="dockWidgetContents_2">
-    <widget class="QTextEdit" name="textEdit">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>661</width>
-       <height>321</height>
-      </rect>
-     </property>
-     <property name="midLineWidth">
-      <number>0</number>
-     </property>
-     <property name="tabChangesFocus">
+   <widget class="QDockWidget" name="dockWidget_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>522</y>
+      <width>820</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::WheelFocus</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string extracomment="摘录内容"/>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="floating">
+     <bool>false</bool>
+    </property>
+    <property name="allowedAreas">
+     <set>Qt::BottomDockWidgetArea|Qt::TopDockWidgetArea</set>
+    </property>
+    <widget class="QWidget" name="dockWidgetContents_2">
+     <property name="enabled">
       <bool>true</bool>
      </property>
-     <property name="lineWrapMode">
-      <enum>QTextEdit::NoWrap</enum>
+     <property name="focusPolicy">
+      <enum>Qt::WheelFocus</enum>
      </property>
-     <property name="lineWrapColumnOrWidth">
-      <number>1</number>
+     <property name="contextMenuPolicy">
+      <enum>Qt::ActionsContextMenu</enum>
      </property>
+     <property name="acceptDrops">
+      <bool>true</bool>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>0</y>
+        <width>721</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="tabChangesFocus">
+       <bool>true</bool>
+      </property>
+      <property name="lineWrapMode">
+       <enum>QTextEdit::WidgetWidth</enum>
+      </property>
+      <property name="lineWrapColumnOrWidth">
+       <number>1</number>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
-  <zorder>dockWidget_2</zorder>
  </widget>
  <resources/>
  <connections/>

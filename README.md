@@ -1,6 +1,10 @@
 # MWdock
 A widget which can power the all function, programed in Pyqt5 
-This program is a test on learning pyqt5, is the basic function of the previous program "Mindway" which is developed by C and glade2 for GTK, however, the interface of Mindway project is planed  to be improved, the pyqt5 may give the new chance.
+We have lots of widgets like linetextedit, radio button, checkbox,buttons,labels and so on, but the fact is we only want to input messages and get the result to display, can we get a  universal widget that can get all the above functon?
+
+So, this program is a taste, you can get the up meaning by using the interface.
+
+It's a program by learning pyqt5, with the basic function of the previous program "Mindway" which is developed by C and glade2 for GTK, however, the interface of Mindway project is planed  to be improved, the pyqt5 may give the new chance.
 I've planed to creat a omnipotent widget which can be called by a simple word, this have been introduced and put into practice by "Mindway" project which can easily call and run a dialogue  by the form with "@", then a assembled dialogue of lineedit, listview will get the input for the running of program like form, although there are no machine language except digital paragraph .
 "MWdock"　project is a addition, which give the interface outline, although  is still much big than object for understanding the purpose.
 The function of search and other "Mindway" function can be enhanced if you join and learn.

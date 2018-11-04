@@ -177,14 +177,14 @@ class Ui_MainWindow(object):
         self.textEdit.setLineWrapColumnOrWidth(1)
         self.textEdit.setObjectName("textEdit")
         self.dockWidget_2.setWidget(self.dockWidgetContents_2)
-#        MainWindow.setCentralWidget(self.centralwidget)
+ #       MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "所以然v0.48"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "搜以然v0.5/GPLv3 by Jacky 62505287@qq.com"))
         self.toolButton_8.setText(_translate("MainWindow", "V"))
         self.toolButton_9.setText(_translate("MainWindow", "文库"))
         self.toolButton_10.setText(_translate("MainWindow", "加行"))

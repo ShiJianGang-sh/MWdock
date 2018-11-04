@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>所以然v0.48</string>
+   <string>搜以然v0.5/GPLv3 by Jacky 62505287@qq.com</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="layoutWidget">

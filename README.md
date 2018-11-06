@@ -1,5 +1,6 @@
 # MWdock
-A widget which can power the all function, programed in Pyqt5 
+A widget which can power the universal functions, programed in Pyqt5. 
+Text with calculation are its topic, that means you can search and extract from the text file and calculate it, maybe it's the outline mode of human's work nowdays.
 We have lots of widgets like linetextedit, radio button, checkbox,buttons,labels and so on, but the fact is we only want to input messages and get the result to display, can we get a  universal widget that can get all the above functon?
 
 So, this program is a taste, you can get the up meaning by using the interface.
@@ -15,4 +16,7 @@ https://pan.baidu.com/s/1XwmV50NBIa0I1vnaQ2IjCg
 
 The Linux platform execuable package mwdock-v0.50 link is as following:
 https://pan.baidu.com/s/1WQSGYXzHrfpB_cytC_CFGg
+The windows7sp1 and later version execuable packge link is as followed:
+https://pan.baidu.com/s/1kCY6j3w-KHuo-qA06uLwRA
+
 This program is  designed for PC internal search for specialized field text files by now,  an small text files library is established, and you can input your keyword in the top item by doubleclick it, you get all the result by press [search] button on ow left  corner, the "and" conditional key words are separated  by "," , and the "or" conditional key words are  separated  by " "; you can calculating the input string by press [calculating] button on up right corner, you can extract the items by check them and press [>] button on the right and the contents will show in the  dock text edit box, you can copy the text of below item to the top by press [v] button on the up left; you can add a new file to the library by press [library] button next to [v], you can add the top item below the item you just clicked by press [add] button on up middle and delete it by [del] button on low middle; you can open a selected file on first page and open the first by click top item and [open];you can drap-drop the items and by click [library] button to locate the exact file to take effect; you can exit bu press [exit] button on the low right. It's the  general aspect。
